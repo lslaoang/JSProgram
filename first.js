@@ -1,2 +1,4 @@
-console.log("Hello world!")
-console.log("Hello again user!")
+
+let num = 100;
+let userName = "Lao";
+console.log("Print username: " + userName + " and number: " + num);
