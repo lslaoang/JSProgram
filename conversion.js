@@ -26,3 +26,9 @@ function printArray(Array) {
 }
 
 printArray([1,2,2,2,2]);
+
+function returnStr(params) {
+    return params;
+}
+
+console.log("Return string: ", returnStr("String msg!"));
