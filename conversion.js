@@ -32,3 +32,12 @@ function returnStr(params) {
 }
 
 console.log("Return string: ", returnStr("String msg!"));
+
+function returnOperationResult(a, b, c){
+    return a + b + c;
+}
+
+// Polymorphic function
+console.log("Result  of the operation: ", returnOperationResult(1,2," 1224")); // Arithmetic first
+console.log("Result  of the operation: ", returnOperationResult("This string ",2,23)); 
+console.log("Result  of the operation: ", returnOperationResult(1,2,12.3));
